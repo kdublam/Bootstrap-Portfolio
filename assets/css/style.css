@@ -1,7 +1,7 @@
 /* Main CSS for the Nav bar, Body, and Footer */
 
 body {
-    background-image: url("../images/gaming-pattern.png");
+    background-image: url("../images/dark-honeycomb.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0px;
 }
@@ -10,29 +10,45 @@ body {
     padding:20px;
     background-color: #ffffff;
     margin:auto;
+    display:flex;
+    justify-content: center;
+}
+
+.smalltop{
+    padding-left:0px;
+    padding-right:0px;
 }
 
 #topbar{
+    background-color: #4aaaa5;
     padding:0px;
 }
+
+
 
 #linkbar{
     padding:0px;
-   
+    align-items: center;
+  
 }
 
+#alignleft{
+    align-items: left;
+    text-align: left;
+}
 
 #name{
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
     padding: 15px;
     margin:auto;
 }
 
 .whitebar{
     background-color: white;
-    margin:auto;
+    margin:0px;
     width: 100%;
     height: 87px;
     margin-bottom: 20px;
@@ -253,3 +269,18 @@ input[type=submit] {
     left: 370px;
     position: relative;
 } */
+
+/* Media Query */
+
+/* .conmedia {
+    max-width:100%;
+    margin-left: 40px;
+} */
+
+@media (max-width:768px){
+    .conmedia {
+        max-width:767px;
+        margin: 0px;
+    }
+}
+
