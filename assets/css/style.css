@@ -12,6 +12,7 @@ body {
     margin:auto;
     display:flex;
     justify-content: center;
+    flex-wrap: nowrap
 }
 
 .smalltop{
@@ -94,71 +95,91 @@ body {
     color: #ffffff;
     padding: 30px;
 }
+*/
 
-footer{
-    position: fixed;
+#copyright{
+    background-color:#666666;
+    color: #ffffff;
+    font-size: 12px;
+    align-content: center;
+}
+#foot{
+    /* position: fixed;
     width: 100%;
-    bottom: 0;
+    bottom: 0; */
     background-color: #666666;
     color: #ffffff;
     text-align: center;
-    padding-top: 40px;
+    display: inline-block;
+    /* padding-top: 40px;
     padding-bottom:10px;
     right:0;
-    left:0;
+    left:0; */
     border-top: 8px solid #4aaaa5;
     font-size: 12px;
-} */
+}
 
 
 /* About Me section on the index.html page */
 
 
-/* .content{
+.content{
     background-color: #ffffff;
     color: #777777;
-    margin-top: 80px;
-    margin: auto;
+    margin-top: 20px;
+    /* margin: auto; */
     border: 1px solid #dddddd;
-    width: 960px;
+    /* width: 960px; */
     margin-bottom: 100px;
+    align-items: center;
+    padding:40px;
 }
-
+/*
 .content h1{
     padding-top: 20px;
     padding-left: 20px;
     color: #4aaaa5;
 }
-
+*/
 .content img{
     float: left;
     padding: 20px;
-    height: 200px;
+    height: 300px;
 }
 
+/*
 .content hr{
     width: 920px;
 }
-
+*/
 .content p{
     line-height: 2;
     padding:20px;
-} */
+}
 
 
 /* Contact form on the contact.html page */
 
-/* .contact{
+ .contact{
     background-color: #ffffff;
     color: #777777;
     margin-top: 20px;
-    margin: auto;
+    /* margin: auto; */
     margin-bottom:100px;
     border: 1px solid #dddddd;
-    width: 960px;
+    /* width: 960px; */
     padding-bottom:30px;
+    padding:40px;
+
 }
 
+.contactForm{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+
+/*
 .contact hr{
     width: 920px;
 }
@@ -202,18 +223,21 @@ input[type=submit] {
 
 /* Portfolio Section on the portfolio.html page */
 
-/* .portfolio{
+ .portfolio{
     background-color: #ffffff;
     color: #777777;
     margin-top: 20px;
-    margin: auto;
+    /* margin: auto; */
     margin-bottom: 100px;
     border: 1px solid #dddddd;
-    width: 960px;
+    /* width: 960px; */
     padding-bottom: 30px;
     position: relative;
     height: 880px;
+    padding:40px;
 }
+
+/*
 
 .portfolio hr{
     width: 920px;
@@ -224,11 +248,18 @@ input[type=submit] {
     padding-left: 20px;
     color: #4aaaa5;
 }
+*/
+/* .portalign{
+    display:inherit;
+    margin:auto;
+} */
 
 .portimage{
     width: 300px;
-    float:left;
-    position: absolute;
+    height: 100%;
+    padding: 20px;
+    /* float:left; */
+    position: relative;
 }
 
 .textbox{
@@ -236,15 +267,18 @@ input[type=submit] {
     color: #ffffff;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 18px;
     text-align: center;
     position: absolute;
-    width: 300px;
+    width: 260px;
     float: left;
-    top: 150px;
+    top: 125px;
 }
-
+/*
 .row1{
     top:140px;
     position: absolute;
@@ -277,10 +311,39 @@ input[type=submit] {
     margin-left: 40px;
 } */
 
-@media (max-width:768px){
+
+
+@media (max-width:767px){
     .conmedia {
         max-width:767px;
         margin: 0px;
     }
+
+    .content{
+        margin-top:90px;
+    }
+
+    .content img{
+        width: 100%;
+        height: auto;
+    }
+
+    .contact{
+        margin-top:90px;
+    }
+    .portfolio{
+        margin-top:90px;
+        height: 2500px;
+    }
+    .portimage{
+        width: 100%;
+        height: 100%;
+    }
+    .textbox{
+        top:240px;
+        width: 85.59%;
+    }
+
 }
+
 
