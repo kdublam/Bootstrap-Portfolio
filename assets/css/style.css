@@ -6,286 +6,158 @@ body {
     margin: 0px;
 }
 
-#toplinks{
-    padding:20px;
+#toplinks {
+    padding: 20px;
     background-color: #ffffff;
-    margin:auto;
-    display:flex;
+    margin: auto;
+    display: flex;
     justify-content: center;
     flex-wrap: nowrap
 }
 
-.smalltop{
-    padding-left:0px;
-    padding-right:0px;
+.smalltop {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
-#topbar{
+#topbar {
     background-color: #4aaaa5;
-    padding:0px;
+    padding: 0px;
 }
 
-
-
-#linkbar{
-    padding:0px;
+#linkbar {
+    padding: 0px;
     align-items: center;
-  
 }
 
-#alignleft{
+#alignleft {
     align-items: left;
     text-align: left;
 }
 
-#name{
+#name {
     background-color: #4aaaa5;
     color: #ffffff;
-
     padding: 15px;
-    margin:auto;
+    margin: auto;
 }
 
-.myname{
+.myname {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    /* font-weight: bold; */
 }
 
-.whitebar{
+.whitebar {
     background-color: white;
-    margin:0px;
+    margin: 0px;
     width: 100%;
     height: 87px;
     margin-bottom: 20px;
     border-bottom: 1px solid #cccccc;
 }
 
-.mylinks{
+.mylinks {
     display: inline-block;
     color: #777777;
-    /* text-align: center;
-    padding: 30px; */
     font-size: 16px;
     text-decoration: none;
 }
 
-.mylinks :active{
+.mylinks :active {
     background-color: #4aaaa5;
     color: #ffffff;
 }
 
-.myheader{
+.myheader {
     color: #4aaaa5;
 }
 
-/*
-.topheader{
-    width: 960px;
-    margin:auto;
-}
-
-.name{
-    float: left;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 21px;
-    margin: 0;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.topmenu {
-    background-color: #ffffff;
-    overflow: hidden;
-    float: right;
-}
-
-.topmenu a{
-    display: inline-block;
-    color: #777777;
-    text-align: center;
-    padding: 30px;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.topmenu a:hover{
-    background-color: #ddd;
-    color: #000000;
-}
-
-.topmenu a.active{
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 30px;
-}
-*/
-
-#copyright{
-    background-color:#666666;
+#copyright {
+    background-color: #666666;
     color: #ffffff;
     font-size: 12px;
     align-content: center;
 }
-#foot{
-    /* position: fixed;
-    width: 100%;
-    bottom: 0; */
+
+#foot {
     background-color: #666666;
     color: #ffffff;
     text-align: center;
     display: inline-block;
-    /* padding-top: 40px;
-    padding-bottom:10px;
-    right:0;
-    left:0; */
     border-top: 8px solid #4aaaa5;
     font-size: 12px;
 }
 
-
 /* About Me section on the index.html page */
 
-
-.content{
+.content {
     background-color: #ffffff;
     color: #777777;
     margin-top: 20px;
-    /* margin: auto; */
     border: 1px solid #dddddd;
-    /* width: 960px; */
     margin-bottom: 100px;
     align-items: center;
-    padding:40px;
+    padding: 40px;
 }
-/*
-.content h1{
-    padding-top: 20px;
-    padding-left: 20px;
-    color: #4aaaa5;
-}
-*/
-.content img{
+
+.content img {
     float: left;
     padding: 20px;
     height: 300px;
 }
 
-/*
-.content hr{
-    width: 920px;
-}
-*/
-.content p{
+.content p {
     line-height: 2;
-    padding:20px;
+    padding: 20px;
 }
-
 
 /* Contact form on the contact.html page */
 
- .contact{
+.contact {
     background-color: #ffffff;
     color: #777777;
     margin-top: 20px;
-    /* margin: auto; */
-    margin-bottom:100px;
+    margin-bottom: 100px;
     border: 1px solid #dddddd;
-    /* width: 960px; */
-    padding-bottom:30px;
-    padding:40px;
-
+    padding-bottom: 30px;
+    padding: 40px;
 }
 
-.contactForm{
+.contactForm {
     display: inline-block;
     width: 100%;
     margin: auto;
 }
 
-/*
-.contact hr{
-    width: 920px;
-}
-
-form{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.contact h1{
-    padding-top: 20px;
-    padding-left: 20px;
-    color: #4aaaa5;
-}
-
-input[type=text] {
-    width: 98%;
-    padding: 10px;
-    margin-right: 20px;
-    border: 1px solid #dddddd;
-}
-
-textarea{
-    width:100%;
-    height: 200px;
-    resize: vertical; 
-    border: 1px solid #dddddd;
-}
-
-*/
 .submit {
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-    /* margin-top: 10px;
-    margin-left: 20px; */
-  } 
-  
+}
 
 /* Portfolio Section on the portfolio.html page */
 
- .portfolio{
+.portfolio {
     background-color: #ffffff;
     color: #777777;
     margin-top: 20px;
-    /* margin: auto; */
     margin-bottom: 100px;
     border: 1px solid #dddddd;
-    /* width: 960px; */
     padding-bottom: 30px;
     position: relative;
     height: 880px;
-    padding:40px;
+    padding: 40px;
 }
 
-/*
-
-.portfolio hr{
-    width: 920px;
-}
-
-.portfolio h1{
-    padding-top: 20px;
-    padding-left: 20px;
-    color: #4aaaa5;
-}
-*/
-/* .portalign{
-    display:inherit;
-    margin:auto;
-} */
-
-.portimage{
+.portimage {
     width: 300px;
     height: 100%;
     padding: 20px;
-    /* float:left; */
     position: relative;
 }
 
-.textbox{
+.textbox {
     background-color: #4aaaa5;
     color: #ffffff;
     padding-top: 20px;
@@ -301,72 +173,34 @@ textarea{
     float: left;
     top: 125px;
 }
-/*
-.row1{
-    top:140px;
-    position: absolute;
-}
-
-.row2{
-    top:400px;
-    position: absolute;
-}
-
-.row3{
-    top: 660px;
-    position: absolute;
-}
-
-.column1{
-    left: 20px;
-    position: relative;
-}
-
-.column2{
-    left: 370px;
-    position: relative;
-} */
 
 /* Media Query */
 
-/* .conmedia {
-    max-width:100%;
-    margin-left: 40px;
-} */
-
-
-
-@media (max-width:767px){
+@media (max-width:767px) {
     .conmedia {
-        max-width:767px;
+        max-width: 767px;
         margin: 0px;
     }
-
-    .content{
-        margin-top:90px;
+    .content {
+        margin-top: 90px;
     }
-
-    .content img{
+    .content img {
         width: 100%;
         height: auto;
     }
-
-    .contact{
-        margin-top:90px;
+    .contact {
+        margin-top: 90px;
     }
-    .portfolio{
-        margin-top:90px;
+    .portfolio {
+        margin-top: 90px;
         height: 2500px;
     }
-    .portimage{
+    .portimage {
         width: 100%;
         height: 100%;
     }
-    .textbox{
-        top:240px;
+    .textbox {
+        top: 240px;
         width: 85.59%;
     }
-
 }
-
-
